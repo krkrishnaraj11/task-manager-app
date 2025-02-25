@@ -64,7 +64,7 @@ task-manager-app/
 1. Clone the repository:
 
    ```bash
-   git clone <repository_url>
+   git clone https://github.com/krkrishnaraj11/task-manager-app.git
    cd task-manager-app
 
     Install dependencies:
@@ -73,9 +73,7 @@ task-manager-app/
     npm install  # or yarn install
 
     Create a .env file in the root directory and add your environment variables:
-
-    API_BASE_URL=[http://your-backend-api-url.com](http://your-backend-api-url.com)
-    # Add other environment variables as needed
+    API_URL=https://task-manager-api-kbw2.onrender.com
 
 Running the App
 
@@ -121,7 +119,3 @@ Create a pull request.
 License
 
 MIT (or your preferred license)
-
-Remember to replace <repository_url> and http://your-backend-api-url.com with your actual repository URL and backend API URL.
-
-This README provides a basic overview of the project. You can expand it with more details about specific features, libraries used, and deployment instructions.
